@@ -1,0 +1,59 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# API Keys y configuración sensible
+.env
+*.key
+*.pem
+
+# Bases de datos y archivos generados
+chroma_db/
+uploads/
+uploaded_pdfs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+desktop.ini
+
+# Logs
+*.log
+nohup.out
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# PDFs de prueba 
+# *.pdf
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Modelo de embeddings descargados (se descargan automático)
+models/

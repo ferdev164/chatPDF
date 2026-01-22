@@ -17,7 +17,7 @@ Sistema avanzado de chat conversacional para documentos PDF basado en **Generaci
 -  **Multi-Modelo Inteligente**: Groq (Llama 3.1) + Ollama (Llama 3.2) con fallback automático
 -  **Búsqueda Híbrida**: Semántica (embeddings) + Keywords para datos específicos
 -  **OCR Automático**: Procesa PDFs escaneados con Tesseract
--  **Anti-Alucinación**: Sistema de validación en 3 capas (92% precisión)
+-  **Anti-Alucinación**: Sistema de validación en 3 capas 
 -  **Citas de Fuentes**: Cada respuesta cita página y fragmento del PDF
 -  **Multi-Documento**: Gestión de múltiples PDFs simultáneos
 -  **Modo Offline**: Funciona sin internet usando Ollama
@@ -139,15 +139,6 @@ python benchmark.py --dataset evaluation/
 
 ---
 
-## 📚 Documentación
-
-- [Manual de Instalación Completo](docs/INSTALACION.md)
-- [Arquitectura Detallada](docs/ARQUITECTURA.md)
-- [Paper Académico](docs/paper.pdf)
-- [API Documentation](http://localhost:8000/docs) (cuando el backend esté corriendo)
-
----
-
 ## Contribuir
 
 Las contribuciones son bienvenidas:
@@ -160,10 +151,10 @@ Las contribuciones son bienvenidas:
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Integrar GPT-4 Vision para interpretar gráficos
-- [ ] Clustering jerárquico para >100 documentos
+- [ ] Clustering jerárquico para >10 documentos
 - [ ] Fine-tuning en dominio legal/médico
 - [ ] API pública con rate limiting
 - [ ] Deploy en la nube (AWS/Azure)

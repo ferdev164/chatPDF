@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Sistema avanzado de chat conversacional para documentos PDF basado en **Generación Aumentada por Recuperación (RAG)** y **arquitectura multi-modelo**.
 
@@ -159,3 +158,11 @@ Las contribuciones son bienvenidas:
 - [ ] API pública con rate limiting
 - [ ] Deploy en la nube (AWS/Azure)
 - [ ] App móvil
+      
+---
+
+Autores
+- Jose Alfredo Huaman Quispe
+- Augusto Fernando Mamani Palomino
+Escuela Profesional de Ingeniería Informática y de Sistemas
+Universidad Nacional de San Antonio Abad del Cusco

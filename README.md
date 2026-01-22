@@ -12,30 +12,19 @@ Sistema avanzado de chat conversacional para documentos PDF basado en **Generaci
 
 ---
 
-## 🚀 Características Principales
+## Características Principales
 
-- ✅ **Multi-Modelo Inteligente**: Groq (Llama 3.1) + Ollama (Llama 3.2) con fallback automático
-- ✅ **Búsqueda Híbrida**: Semántica (embeddings) + Keywords para datos específicos
-- ✅ **OCR Automático**: Procesa PDFs escaneados con Tesseract
-- ✅ **Anti-Alucinación**: Sistema de validación en 3 capas (92% precisión)
-- ✅ **Citas de Fuentes**: Cada respuesta cita página y fragmento del PDF
-- ✅ **Multi-Documento**: Gestión de múltiples PDFs simultáneos
-- ✅ **Modo Offline**: Funciona sin internet usando Ollama
-
----
-
-## 📊 Resultados
-
-| Métrica | Valor | vs ChatPDF | Mejora |
-|---------|-------|------------|--------|
-| **Precisión** | 92% | 73% | +26% |
-| **Alucinaciones** | 4% | 18% | -78% |
-| **Latencia** | 2.8s | 4.2s | -33% |
-| **Uptime** | 99.1% | 87% | +14% |
+-  **Multi-Modelo Inteligente**: Groq (Llama 3.1) + Ollama (Llama 3.2) con fallback automático
+-  **Búsqueda Híbrida**: Semántica (embeddings) + Keywords para datos específicos
+-  **OCR Automático**: Procesa PDFs escaneados con Tesseract
+-  **Anti-Alucinación**: Sistema de validación en 3 capas (92% precisión)
+-  **Citas de Fuentes**: Cada respuesta cita página y fragmento del PDF
+-  **Multi-Documento**: Gestión de múltiples PDFs simultáneos
+-  **Modo Offline**: Funciona sin internet usando Ollama
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 Usuario → Streamlit → FastAPI → Multi-Model Manager
@@ -47,7 +36,7 @@ Usuario → Streamlit → FastAPI → Multi-Model Manager
 
 ---
 
-## ⚙️ Instalación Rápida
+## Instalación Rápida
 
 ### Requisitos Previos
 
@@ -85,7 +74,7 @@ $env:GROQ_API_KEY="gsk_tu_key_aqui"  # Windows
 
 ---
 
-## 🎯 Uso
+## Uso
 
 ```bash
 # Terminal 1 - Backend
@@ -100,7 +89,7 @@ Abrir navegador en: **http://localhost:8501**
 ### Ejemplo de Uso
 
 1. Subir PDF(s) en el sidebar
-2. Click en "🚀 Procesar PDFs"
+2. Click en " Procesar PDFs"
 3. Hacer preguntas:
    - "¿De qué trata el documento?"
    - "¿Cuál es el número de expediente?"
@@ -108,7 +97,7 @@ Abrir navegador en: **http://localhost:8501**
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 deepPDF-backend/
@@ -127,7 +116,7 @@ deepPDF-backend/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Prueba con documento de ejemplo
@@ -139,7 +128,7 @@ python benchmark.py --dataset evaluation/
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Backend**: FastAPI, Uvicorn
 - **Frontend**: Streamlit
@@ -159,7 +148,7 @@ python benchmark.py --dataset evaluation/
 
 ---
 
-## 🤝 Contribuir
+## Contribuir
 
 Las contribuciones son bienvenidas:
 
@@ -179,39 +168,3 @@ Las contribuciones son bienvenidas:
 - [ ] API pública con rate limiting
 - [ ] Deploy en la nube (AWS/Azure)
 - [ ] App móvil
-
----
-
-## 📄 Licencia
-
-MIT License - ver [LICENSE](LICENSE) para más detalles
-
----
-
-## 👥 Autores
-
-**Jose Alfredo Huaman Quispe**  
-**Augusto Fernando Mamani Palomino**
-
-Escuela Profesional de Ingeniería Informática y de Sistemas  
-Universidad Nacional de San Antonio Abad del Cusco
-
----
-
-## 🙏 Agradecimientos
-
-- [LangChain](https://github.com/langchain-ai/langchain) por el framework RAG
-- [Groq](https://groq.com/) por la API ultra-rápida
-- [Ollama](https://ollama.ai/) por modelos locales
-- Comunidad de [Sentence-Transformers](https://www.sbert.net/)
-
----
-
-## 📧 Contacto
-
-Para dudas o colaboraciones:
-- Email: 225422@unsaac.edu.pe, 224870@unsaac.edu.pe
-
----
-
-**Desarrollado en Cusco, Perú 🇵🇪**

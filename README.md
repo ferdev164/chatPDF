@@ -164,5 +164,6 @@ Las contribuciones son bienvenidas:
 Autores
 - Jose Alfredo Huaman Quispe
 - Augusto Fernando Mamani Palomino
+
 Escuela Profesional de Ingeniería Informática y de Sistemas
 Universidad Nacional de San Antonio Abad del Cusco
